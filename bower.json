@@ -1,0 +1,21 @@
+{
+  "name": "es6-by-example",
+  "description": "Trying out es6 or es2015",
+  "main": "index.js",
+  "authors": [
+    "Eugene Kagan"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur": "~0.0.93"
+  }
+}
