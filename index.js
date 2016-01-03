@@ -1,3 +1,4 @@
+/* global done */
 const http = require('http');
 const finalHandler = require('finalhandler')
 const serveStatic = require('serve-static');
