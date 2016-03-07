@@ -54,33 +54,6 @@ describe('functional paradigm', () => {
       expect(sqr).to.eql([1, 4, 16, 64, 256, 1024]);
     });
 
-    it('lexical scope', ()=> {
-
-      this.player = 'Michael Jordan';
-
-      (()=> {
-        expect(this.player).to.eql('Michael Jordan');
-      })();
-
-      (function () {
-        //expect(this.player).to.be.undefined;
-      })();
-
-    });
-
-    it('iterators', () => {
-
-      //var values = numCollection.values();
-      //var itr = values.next();
-      //var total = 0;
-      //while (!itr.done) {
-      //  total += itr.value;
-      //  itr = values.next();
-      //}
-      //
-      //expect(total).to.eql(63);
-    })
-
     it('for-of, values iterator', ()=> {
 
       let total = 0;
