@@ -27,7 +27,7 @@ describe('functional paradigm', () => {
     });
 
     it('function: recursion', () => {
-      //throw new Exception('Test Now');
+      throw new Exception('Test Now');
       var fibonacci = (num) => {
         if (num < 0) {
           return -1;
